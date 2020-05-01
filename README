@@ -1,0 +1,19 @@
+xyz_train.csv:
+
+training data for ticker xyz
+
+xyz_test.csv:
+
+test data for ticker xyz
+
+xyz_pred.csv:
+
+predicted returns for ticker xyz
+
+model.py:
+
+Load the training and test data for a ticker from the corresponding csv and run to get predicted returns for that ticker
+
+optimization.py:
+
+In rebalance() choose either T=4 or T=2 (number of rebalancings) and put either periods2 or periods4 in plot() to see the generated graph for the optimization
